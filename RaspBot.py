@@ -6,7 +6,8 @@ from telebot import types
 from openpyxl import load_workbook
 
 
-bot = telebot.TeleBot('7975900777:AAHzzsNHPRsZtWCwXnQ27B16dXJBU0zAgcw')
+TOCKEN ='you tocken'
+bot = telebot.TeleBot(TOCKEN)
 
 
 def user_name(id_user:int,base_name:str,table_name:str,litera_stolbca:str):
