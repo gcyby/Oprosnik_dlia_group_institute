@@ -82,7 +82,8 @@ def sozdaem_opros(danie_oprosa, id_kogoto):
 
 
 if __name__ == '__main__':
-    bot = telebot.TeleBot('7975900777:AAHzzsNHPRsZtWCwXnQ27B16dXJBU0zAgcw')
+    Tocken = str(input())
+    bot = telebot.TeleBot(Tocken)
     Admin_id = id_user_in_table('база старст_групп.xlsx', 'Admin_List', 'A')
 
 
